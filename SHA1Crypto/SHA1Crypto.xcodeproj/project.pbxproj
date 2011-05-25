@@ -1,0 +1,295 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E12697E1134CCAB60068AAF5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E12697E0134CCAB60068AAF5 /* UIKit.framework */; };
+		E12697E3134CCAB60068AAF5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E12697E2134CCAB60068AAF5 /* Foundation.framework */; };
+		E12697E5134CCAB60068AAF5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E12697E4134CCAB60068AAF5 /* CoreGraphics.framework */; };
+		E12697EB134CCAB60068AAF5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E12697E9134CCAB60068AAF5 /* InfoPlist.strings */; };
+		E12697EE134CCAB60068AAF5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E12697ED134CCAB60068AAF5 /* main.m */; };
+		E12697F1134CCAB60068AAF5 /* SHA1CryptoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E12697F0134CCAB60068AAF5 /* SHA1CryptoAppDelegate.m */; };
+		E12697F4134CCAB60068AAF5 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = E12697F2134CCAB60068AAF5 /* MainWindow.xib */; };
+		E12697F7134CCAB60068AAF5 /* SHA1CryptoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E12697F6134CCAB60068AAF5 /* SHA1CryptoViewController.m */; };
+		E12697FA134CCAB60068AAF5 /* SHA1CryptoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E12697F8134CCAB60068AAF5 /* SHA1CryptoViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E12697DC134CCAB60068AAF5 /* SHA1Crypto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SHA1Crypto.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E12697E0134CCAB60068AAF5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E12697E2134CCAB60068AAF5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E12697E4134CCAB60068AAF5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E12697E8134CCAB60068AAF5 /* SHA1Crypto-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SHA1Crypto-Info.plist"; sourceTree = "<group>"; };
+		E12697EA134CCAB60068AAF5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E12697EC134CCAB60068AAF5 /* SHA1Crypto-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SHA1Crypto-Prefix.pch"; sourceTree = "<group>"; };
+		E12697ED134CCAB60068AAF5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = main.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		E12697EF134CCAB60068AAF5 /* SHA1CryptoAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = SHA1CryptoAppDelegate.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		E12697F0134CCAB60068AAF5 /* SHA1CryptoAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = SHA1CryptoAppDelegate.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		E12697F3134CCAB60068AAF5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		E12697F5134CCAB60068AAF5 /* SHA1CryptoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = SHA1CryptoViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		E12697F6134CCAB60068AAF5 /* SHA1CryptoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = SHA1CryptoViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		E12697F9134CCAB60068AAF5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SHA1CryptoViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E12697D9134CCAB60068AAF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E12697E1134CCAB60068AAF5 /* UIKit.framework in Frameworks */,
+				E12697E3134CCAB60068AAF5 /* Foundation.framework in Frameworks */,
+				E12697E5134CCAB60068AAF5 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E12697D1134CCAB60068AAF5 = {
+			isa = PBXGroup;
+			children = (
+				E12697E6134CCAB60068AAF5 /* SHA1Crypto */,
+				E12697DF134CCAB60068AAF5 /* Frameworks */,
+				E12697DD134CCAB60068AAF5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E12697DD134CCAB60068AAF5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E12697DC134CCAB60068AAF5 /* SHA1Crypto.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E12697DF134CCAB60068AAF5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E12697E0134CCAB60068AAF5 /* UIKit.framework */,
+				E12697E2134CCAB60068AAF5 /* Foundation.framework */,
+				E12697E4134CCAB60068AAF5 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E12697E6134CCAB60068AAF5 /* SHA1Crypto */ = {
+			isa = PBXGroup;
+			children = (
+				E12697EF134CCAB60068AAF5 /* SHA1CryptoAppDelegate.h */,
+				E12697F0134CCAB60068AAF5 /* SHA1CryptoAppDelegate.m */,
+				E1269800134CCAC20068AAF5 /* Views */,
+				E12697F5134CCAB60068AAF5 /* SHA1CryptoViewController.h */,
+				E12697F6134CCAB60068AAF5 /* SHA1CryptoViewController.m */,
+				E12697E7134CCAB60068AAF5 /* Supporting Files */,
+			);
+			path = SHA1Crypto;
+			sourceTree = "<group>";
+		};
+		E12697E7134CCAB60068AAF5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E12697E8134CCAB60068AAF5 /* SHA1Crypto-Info.plist */,
+				E12697E9134CCAB60068AAF5 /* InfoPlist.strings */,
+				E12697EC134CCAB60068AAF5 /* SHA1Crypto-Prefix.pch */,
+				E12697ED134CCAB60068AAF5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E1269800134CCAC20068AAF5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E12697F2134CCAB60068AAF5 /* MainWindow.xib */,
+				E12697F8134CCAB60068AAF5 /* SHA1CryptoViewController.xib */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E12697DB134CCAB60068AAF5 /* SHA1Crypto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E12697FD134CCAB60068AAF5 /* Build configuration list for PBXNativeTarget "SHA1Crypto" */;
+			buildPhases = (
+				E12697D8134CCAB60068AAF5 /* Sources */,
+				E12697D9134CCAB60068AAF5 /* Frameworks */,
+				E12697DA134CCAB60068AAF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SHA1Crypto;
+			productName = SHA1Crypto;
+			productReference = E12697DC134CCAB60068AAF5 /* SHA1Crypto.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E12697D3134CCAB60068AAF5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = Nearsoft;
+			};
+			buildConfigurationList = E12697D6134CCAB60068AAF5 /* Build configuration list for PBXProject "SHA1Crypto" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E12697D1134CCAB60068AAF5;
+			productRefGroup = E12697DD134CCAB60068AAF5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E12697DB134CCAB60068AAF5 /* SHA1Crypto */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E12697DA134CCAB60068AAF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E12697EB134CCAB60068AAF5 /* InfoPlist.strings in Resources */,
+				E12697F4134CCAB60068AAF5 /* MainWindow.xib in Resources */,
+				E12697FA134CCAB60068AAF5 /* SHA1CryptoViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E12697D8134CCAB60068AAF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E12697EE134CCAB60068AAF5 /* main.m in Sources */,
+				E12697F1134CCAB60068AAF5 /* SHA1CryptoAppDelegate.m in Sources */,
+				E12697F7134CCAB60068AAF5 /* SHA1CryptoViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E12697E9134CCAB60068AAF5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E12697EA134CCAB60068AAF5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E12697F2134CCAB60068AAF5 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E12697F3134CCAB60068AAF5 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		E12697F8134CCAB60068AAF5 /* SHA1CryptoViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E12697F9134CCAB60068AAF5 /* en */,
+			);
+			name = SHA1CryptoViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E12697FB134CCAB60068AAF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E12697FC134CCAB60068AAF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		E12697FE134CCAB60068AAF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SHA1Crypto/SHA1Crypto-Prefix.pch";
+				INFOPLIST_FILE = "SHA1Crypto/SHA1Crypto-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E12697FF134CCAB60068AAF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SHA1Crypto/SHA1Crypto-Prefix.pch";
+				INFOPLIST_FILE = "SHA1Crypto/SHA1Crypto-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E12697D6134CCAB60068AAF5 /* Build configuration list for PBXProject "SHA1Crypto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E12697FB134CCAB60068AAF5 /* Debug */,
+				E12697FC134CCAB60068AAF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E12697FD134CCAB60068AAF5 /* Build configuration list for PBXNativeTarget "SHA1Crypto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E12697FE134CCAB60068AAF5 /* Debug */,
+				E12697FF134CCAB60068AAF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E12697D3134CCAB60068AAF5 /* Project object */;
+}

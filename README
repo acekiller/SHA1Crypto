@@ -1,0 +1,1 @@
+Here is a little function for encrypt a string. It accepts a string and returns it as a SHA1 string.
